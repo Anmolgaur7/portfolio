@@ -1,0 +1,38 @@
+import React from 'react'
+import { TypeAnimation } from 'react-type-animation';
+import mine from "../images/anmol.png";
+function Aboutme() {
+  return (
+    <>
+      <div className='flex flex-col items-center pt-20'>
+        <img src={mine} className='w-[20rem] h-[20rem] rounded-full' />
+        <div className=' text-white '>
+          <h1 className=' text-5xl font-bold font-sans text-center mt-3'>
+            Hi i am Anmol Gaur
+          </h1>
+          <h1 className='text-2xl font-semibold font-mono text-center mt-3'>I am a <TypeAnimation
+            sequence={[
+              'Web Developer',
+              1000,
+              'Programmer',
+              1000,
+            ]}
+            wrapper="span"
+            speed={10}
+            className='text-2xl font-semibold text-red-400 font-mono text-center'
+            repeat={Infinity}
+          /></h1>
+          <p className='text-center text-lg pl-5 pr-5 text-green-100 mt-2'>
+            Hey there, I'm a BCA student cruising through my 4th semester. My heart has taken a liking to React and the MERN stack - there's something captivating about weaving code into interactive experiences.
+            As I tread the digital path, I've also dipped my toes into Android development, curious about the world of mobile apps.
+            Join me in this tech journey as I blend creativity with coding, turning ideas into digital realities. Explore my portfolio and let's connect to bring innovation to life!</p>
+        </div>
+
+        <button className='rounded-md bg-gradient-to-r from-red-500 to-red-700 text-white text-xl pr-8 pl-8 pt-2 ptb-2 mt-7 font-bold'>Check Resume</button>
+      </div>
+    </>
+
+  )
+}
+
+export default Aboutme
