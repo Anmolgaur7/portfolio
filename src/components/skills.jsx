@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaAndroid, FaBootstrap, FaCss3, FaHtml5, FaJava, FaJs, FaNode, FaReact } from 'react-icons/fa'
 import{SiC, SiCplusplus, SiExpress, SiGit, SiGithub, SiKotlin, SiMongodb, SiMysql, SiPostman, SiPython, SiVisualstudiocode} from 'react-icons/si'
-import Zoom from 'react-reveal/Zoom'
 
 function skills() {
   return (
@@ -11,7 +10,7 @@ function skills() {
     <p className='text-lg font-medium font-sans text-center pl-6 pr-6 text-green-100 m-3 '>Here are some skills which I developed over the last 2 years</p>
     </div>
     <div className='flex justify-center flex-wrap'>
-    <Zoom>
+ 
     <div className='bg-gray-950 text-white border-4 w-full m-8 rounded-2xl  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Frontend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -36,9 +35,6 @@ function skills() {
     </div>
     </div>
     </div>
-    </Zoom>
-
-    <Zoom>
     <div className='bg-gray-950 text-white border-4 w-full m-8 rounded-2xl  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Backend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -59,8 +55,6 @@ function skills() {
     </div>   
     </div>
     </div>
-    </Zoom>
-    <Zoom>
     <div className='bg-gray-950 text-white border-4 w-full m-8 rounded-2xl  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Lannguages</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -90,8 +84,6 @@ function skills() {
     </div> 
     </div>
     </div>
-    </Zoom>
-    <Zoom>
     <div className='bg-gray-950 text-white border-4 w-full m-8 rounded-2xl  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Others</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -116,7 +108,6 @@ function skills() {
     </div>      
     </div>
     </div>
-    </Zoom>
     </div>
     </div>
   )
