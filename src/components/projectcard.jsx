@@ -4,7 +4,7 @@ import {FaGithub} from "react-icons/fa";
 export default function projectcard(props) 
 {
   return (
-    <div className='container  border-2 border-red-500 rounded-md flex-col p-2 mb-2 text-white h-[30rem] overflow-scroll'>
+    <div className='container  border-2 border-red-500 rounded-md flex-col p-2 mb-2 text-white'>
      <div className='flex justify-center items-center'>
      <a href={props.plink}><FaGithub className='text-4xl text-center hover:text-red-400'/></a>    
     </div>   
