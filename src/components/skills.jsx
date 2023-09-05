@@ -11,7 +11,7 @@ function skills() {
     <p className='text-lg font-medium font-sans text-center pl-6 pr-6 text-green-100 m-3 '>Here are some skills which I developed over the last 2 years</p>
     </div>
     <div className='flex justify-center flex-wrap items-center'>
- <Slide>
+ <Slide triggerOnce={true}>
     <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Frontend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -37,7 +37,7 @@ function skills() {
     </div>
     </div>
     </Slide>
-    <Slide>
+    <Slide triggerOnce={true}>
     <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4 border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Backend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -88,7 +88,7 @@ function skills() {
     </div>
     </div>
     </Slide>
-   <Slide>
+   <Slide triggerOnce={true}>
     <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Others</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
@@ -115,6 +115,7 @@ function skills() {
     </div>
     </Slide>
     </div>
+
     </div>
   )
 }
