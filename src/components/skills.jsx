@@ -7,12 +7,12 @@ function skills() {
   return (
     <div className='bg-gray-950 mt-14 min-h-fit opacity-70 flex flex-col p-4 justify-center'>
     <div>
-    <h1 className='text-4xl font-bold font-sans text-center text-white p-4'>Skills</h1>
-    <p className='text-lg font-medium font-sans text-center pl-6 pr-6 text-green-100 m-3 '>Here are some skills which I developed over the last 2 years</p>
+    <h1 className='text-4xl font-bold font-sans text-center text-white p-4 '>Skills</h1>
+    <p className='text-lg font-medium font-sans text-center pl-6 pr-6 text-green-100 m-3 sm: text-xl '>Here are some skills which I developed over the last 2 years</p>
     </div>
-    <div className='flex justify-center flex-wrap items-center'>
+    <div className='flex justify-center flex-wrap items-center '>
  <Slide triggerOnce={true}>
-    <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
+    <div className='bg-gray-950 text-white border-4 w-[22rem] container rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center sm: m-4'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Frontend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
       <div className=' text-black border-red-600 text-lg font-medium flex items-center  bg-gray-300 p-2 rounded-2xl hover:bg-blue-400'>
@@ -38,7 +38,7 @@ function skills() {
     </div>
     </Slide>
     <Slide triggerOnce={true}>
-    <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4 border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
+    <div className='bg-gray-950 text-white border-4  w-[22rem] rounded-2xl mb-4 border-red-600 pt-3 pb-5 pr-15 pl-15 text-center sm: m-4'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Backend</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
       <div className=' text-black border-red-600 text-lg font-medium flex items-center  bg-gray-300 p-2 rounded-2xl hover:bg-green-400'>
@@ -58,7 +58,7 @@ function skills() {
     </div>   
     </div>
     </div>
-    <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
+    <div className='bg-gray-950 text-white border-4 w-[22rem] rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center sm: m-4'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Languages</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
       <div className=' text-black border-red-600 text-lg font-medium flex items-center  bg-gray-300 p-2 rounded-2xl hover:bg-blue-400'>
@@ -89,7 +89,7 @@ function skills() {
     </div>
     </Slide>
    <Slide triggerOnce={true}>
-    <div className='bg-gray-950 text-white border-4 w-full rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center'>
+    <div className='bg-gray-950 text-white border-4 w-[22rem] rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center sm: m-4'>
     <h1 className='text center text-3xl font-medium p-2 mb-3'>Others</h1>
     <div className=' justify-center flex-wrap flex  gap-2 '>
       <div className=' text-black border-red-600 text-lg font-medium flex items-center  bg-gray-300 p-2 rounded-2xl hover:bg-green-400'>

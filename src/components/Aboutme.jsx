@@ -5,8 +5,8 @@ import { FaGithub } from 'react-icons/fa';
 function Aboutme() {
   return (
     <>
-      <div className='flex justify-center p-4'>
-        <a href=""><button className='rounded-3xl  bg-gradient-to-r flex justify-center items-center from-red-500 to-red-700  text-white text-xl pt-2 pb-2 pr-4 pl-4'> <FaGithub className='mr-2'/>Github Profile</button></a>
+      <div className='flex justify-center p-4 mb-3'>
+        <a href="https://github.com/Anmolgaur7"><button className='rounded-3xl  bg-red-500 flex justify-center items-center text-white text-xl pt-2 pb-2 pr-4 pl-4'> <FaGithub className='mr-2'/>Github Profile</button></a>
       </div>
       <div className='flex flex-col items-center pt-4'>
         <img src={mine} className='w-[18rem] h-[18rem] rounded-full' alt='image' />
@@ -33,7 +33,7 @@ function Aboutme() {
             As I tread the digital path, I've also dipped my toes into Android development, curious about the world of mobile apps.
             Join me in this tech journey as I blend creativity with coding, turning ideas into digital realities. Explore my portfolio and let's connect to bring innovation to life!</p>
         </div>
-        <button className='rounded-md bg-gradient-to-r from-red-500 to-red-700 text-white text-xl pr-8 pl-8 pt-2 pb-2 mt-7 mb-2s font-bold'>Check Resume</button>
+        <button className='rounded-md bg-red-500 text-white text-xl pr-8 pl-8 pt-2 pb-2 mt-7 mb-2s font-bold'>Check Resume</button>
       </div>
     </>
   )
