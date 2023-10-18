@@ -16,7 +16,7 @@
         "pimage":"./tenkiimg.png",
         "ptitle": "Tenkiknow",
         "pdesc": "Tenkiknow is a modern weather application designed to provide users with real-time weather information from around the world. Developed using the MERN (MongoDB, Express.js, React, Node.js) stack for the front end and powered by Tailwind CSS, Tenkiknow offers an interactive and visually engaging user interface. Notably, it does not rely on a database but fetches weather data directly from a weather API.Tenkiknow retrieves current weather conditions, forecasts, and additional meteorological details for user-specified locations. It ensures that users have access to the latest weather information at their fingertips.Tenkiknow includes a location search feature that enables users to find weather information for specific cities, zip codes, or geographic coordinates. This feature simplifies the process of obtaining weather updates for desired locations.",
-        "plink": "https://github.com/Anmolgaur7/tenkiknow"
+        "plink": "https://tenkiknow.vercel.app/"
     },
     {
         "pimage":"./bookmania.png",
