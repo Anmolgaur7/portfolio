@@ -1,18 +1,17 @@
 import Particle from "../src/components/particles";
-import Aboutme from "./components/Aboutme";
-import Skills from "./components/skills";
-import Project from "./components/project";
-import Footer from "./components/footer";
-
+import Landing from "./components/Landing";
+import Main from "./components/Main";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Particle/>
-    <Aboutme/>
-    <Skills/>
-    <Project/>
-    <Footer/>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Landing/>}/>
+      <Route path="/main" element={<Main/>}/>
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }

@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 function Aboutme() {
   return (
     <>
-      <div className='flex justify-center p-4 mb-3'>
+      <div className='flex justify-center p-4 mb-3 '>
         <a href="https://github.com/Anmolgaur7"><button className='rounded-3xl  bg-red-500 flex justify-center items-center text-white text-xl pt-2 pb-2 pr-4 pl-4'> <FaGithub className='mr-2'/>Github Profile</button></a>
       </div>
       <div className='flex flex-col items-center pt-4'>
