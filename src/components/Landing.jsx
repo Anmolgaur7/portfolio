@@ -12,7 +12,7 @@ function Landing() {
                 navigate("/main")
             }
         Setval(arr[val++])
-        },200);
+        },400);
     }
         useEffect(() => {
                 change()

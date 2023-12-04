@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import mine from "../images/anmol.png";
+import mine from "../images/anmol.jpg";
 import { FaGithub } from 'react-icons/fa';
 function Aboutme() {
   return (
@@ -9,7 +9,7 @@ function Aboutme() {
         <a href="https://github.com/Anmolgaur7"><button className='rounded-3xl  bg-red-500 flex justify-center items-center text-white text-xl pt-2 pb-2 pr-4 pl-4'> <FaGithub className='mr-2'/>Github Profile</button></a>
       </div>
       <div className='flex flex-col items-center pt-4'>
-        <img src={mine} className='w-[18rem] h-[18rem] rounded-full' alt='image' />
+        <img src={mine} className='w-[22vw] h-[21vw] rounded-full' alt='image' />
         <div className=' text-white '>
           <h1 className=' text-5xl font-bold font-sans text-center mt-3'>
             Hi i am Anmol Gaur

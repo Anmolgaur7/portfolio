@@ -1,5 +1,12 @@
 [
     {
+        "pimage":"./otakuoasis.jpg",
+        "ptitle": "OtakuOasis",
+        "pdesc": "Your go-to MERN stack-powered anime merchandise hub! With MongoDB housing our extensive catalog, Express.js for seamless navigation, React.js for dynamic interfaces, and Node.js ensuring speedy transactions, it's a smooth, secure, and personalized shopping experience. Engage with the community on our React-powered forum, and let Node.js handle authentication for a safe space. Dive into OtakuOasis for all your anime merch needs!",
+        "plink": "https://github.com/Anmolgaur7/otakuoasis"
+        
+    },
+    {
         "pimage":"./whisper.png",
         "ptitle": "Whisper",
         "pdesc": "Whisper stands out as a chat website built on React for dynamic UI, MongoDB for efficient data storage, and Socket.io for real-time communication. Security is a priority, employing bcrypt.js to hash passwords, fortifying user authentication. These measures create a platform where users can engage in conversations with confidence, knowing their data is kept private and secure.",
