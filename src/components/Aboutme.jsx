@@ -33,7 +33,7 @@ function Aboutme() {
             As I tread the digital path, I've also dipped my toes into Android development, curious about the world of mobile apps.
             Join me in this tech journey as I blend creativity with coding, turning ideas into digital realities. Explore my portfolio and let's connect to bring innovation to life!</p>
         </div>
-        <button className='rounded-md bg-red-500 text-white text-xl pr-8 pl-8 pt-2 pb-2 mt-7 mb-2s font-bold'><a href="https://docs.google.com/document/d/1aDHtLzCEkltabxforeT1qhWdZwV7BFwN/edit?usp=sharing&ouid=117289838927529336567&rtpof=true&sd=true">Check Resume</a></button>
+        <button className='rounded-md bg-red-500 text-white text-xl pr-8 pl-8 pt-2 pb-2 mt-7 mb-2s font-bold'><a href="https://drive.google.com/file/d/1Om3fyh77SsrbACI17AGJFxX1fxC1uIii/view?usp=sharing">Check Resume</a></button>
       </div>
     </>
   )
