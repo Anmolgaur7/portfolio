@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaAndroid, FaBootstrap, FaCss3, FaHtml5, FaJava, FaJs, FaNode, FaReact } from 'react-icons/fa'
-import{SiC, SiCplusplus, SiExpress, SiGit, SiGithub, SiKotlin, SiMongodb, SiMysql, SiPostman, SiPython, SiVisualstudiocode} from 'react-icons/si'
+import { FaAndroid, FaBootstrap, FaCss3, FaHtml5, FaJava, FaJs, FaNode, FaReact} from 'react-icons/fa'
+import{SiC, SiCplusplus, SiExpress, SiGit, SiGithub, SiKotlin, SiMongodb, SiMysql,SiFirebase ,SiPostman, SiPython, SiVisualstudiocode} from 'react-icons/si'
 import{Slide} from 'react-awesome-reveal'
 
 function skills() {
@@ -48,14 +48,19 @@ function skills() {
     <div className=' text-black border-red-600 text-lg font-medium flex items-center bg-gray-300 p-2 rounded-2xl hover:bg-cyan-400'>
       <SiExpress/>
       <h1 className='ml-2'>Express JS</h1>  
-    </div> 
+    </div>
+    <div className=' text-black border-red-600 text-lg font-medium flex items-center bg-gray-300 p-2 rounded-2xl hover:bg-orange-400'>
+      <SiFirebase/>
+      <h1 className='ml-2'>Firebase</h1>  
+    </div>  
     <div className=' text-black border-red-600 text-lg font-medium flex items-center bg-gray-300 p-2 rounded-2xl hover:bg-green-400'>
       <SiMongodb/>
       <h1 className='ml-2'>Mongodb</h1>  
     </div>   <div className=' text-black border-red-600 text-lg font-medium flex items-center bg-gray-300 p-2 rounded-2xl hover:bg-blue-300'>
       <SiMysql/>
       <h1 className='ml-2'>MySql</h1>  
-    </div>   
+    </div>  
+     
     </div>
     </div>
     <div className='bg-gray-950 text-white border-4 w-[22rem] rounded-2xl mb-4  border-red-600 pt-3 pb-5 pr-15 pl-15 text-center sm: m-4'>
