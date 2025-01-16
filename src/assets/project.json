@@ -1,5 +1,19 @@
 [
     {
+        "pimage":"./Staking.png",
+        "ptitle": "Staking Dapp",
+        "pdesc": "Staking Dapp is a decentralized application that allows users to stake their cryptocurrency assets and earn rewards. Built on the Ethereum blockchain using Solidity smart contracts, the Dapp ensures secure and transparent transactions. Users can stake various tokens, track their rewards, and withdraw their earnings with ease. Staking Dapp offers a user-friendly interface and seamless integration with popular wallets like MetaMask, making it accessible to a wide range of users.",
+        "plink": "https://github.com/Anmolgaur7/Staking-App"
+        
+    },
+    {
+        "pimage":"./crpto.png",
+        "ptitle": "Crypto Wallet (Sepolia)",
+        "pdesc": "Sepolia is a secure and user-friendly cryptocurrency wallet that enables users to store, send, and receive digital assets. Built on the Ethereum blockchain, Sepolia leverages smart contracts to ensure the integrity and security of transactions. Users can manage multiple cryptocurrencies, view their transaction history, and monitor their portfolio in real-time. Sepolia offers a seamless and intuitive interface, making it easy for both beginners and experienced users to interact with the blockchain.",
+        "plink": "https://github.com/Anmolgaur7/CryptoWallet-"
+        
+    },
+    {
         "pimage":"./otakuoasis.jpg",
         "ptitle": "OtakuOasis",
         "pdesc": "Your go-to MERN stack-powered anime merchandise hub! With MongoDB housing our extensive catalog, Express.js for seamless navigation, React.js for dynamic interfaces, and Node.js ensuring speedy transactions, it's a smooth, secure, and personalized shopping experience. Engage with the community on our React-powered forum, and let Node.js handle authentication for a safe space. Dive into OtakuOasis for all your anime merch needs!",

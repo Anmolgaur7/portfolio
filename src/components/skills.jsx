@@ -70,6 +70,9 @@ function skills() {
       <FaJava/>
       <h1 className='ml-2'>Java</h1>  
     </div>
+    <div className=' text-black border-red-600 text-lg font-medium flex items-center  bg-gray-300 p-2 rounded-2xl hover:bg-blue-400'>
+      <h1 className='ml-2'>Solidity</h1>  
+    </div>
     <div className=' text-black border-red-600 text-lg font-medium flex items-center bg-gray-300 p-2 rounded-2xl hover:bg-yellow-400'>
       <FaJs/>
       <h1 className='ml-2'>Javascript</h1>  
